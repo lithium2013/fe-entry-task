@@ -33,6 +33,7 @@ const article = new schema.Entity('articles', {
 })
 
 const normalizedData = normalize(originalData, article)
-// const normalizedData = normalize({ id:1, name:'paul' }, user)
 
-console.log('aaa', normalizedData.entities)
+const { result, entities } = normalizedData
+const denormalizedData = denormalize(result, article, entities)
+console.log(denormalizedData)
