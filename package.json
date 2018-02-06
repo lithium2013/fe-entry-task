@@ -1,0 +1,23 @@
+{
+  "name": "fe-entry-task",
+  "version": "1.0.0",
+  "description": "fe-entry-task",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lithium2013/fe-entry-task.git"
+  },
+  "author": "jinyang.li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lithium2013/fe-entry-task/issues"
+  },
+  "homepage": "https://github.com/lithium2013/fe-entry-task#readme",
+  "devDependencies": {
+    "jest": "^22.1.4",
+    "standard": "^10.0.3"
+  }
+}
