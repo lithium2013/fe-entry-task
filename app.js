@@ -36,4 +36,6 @@ const normalizedData = normalize(originalData, article)
 
 const { result, entities } = normalizedData
 const denormalizedData = denormalize(result, article, entities)
-console.log(denormalizedData)
+
+console.log('normalizedData: ', normalizedData)
+console.log('denormalizedData: ', denormalizedData)

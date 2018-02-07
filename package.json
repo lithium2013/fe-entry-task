@@ -4,7 +4,8 @@
   "description": "fe-entry-task",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "standard && jest",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,11 @@
   "devDependencies": {
     "jest": "^22.1.4",
     "standard": "^10.0.3"
+  },
+  "standard": {
+    "globals": [
+      "expect",
+      "test"
+    ]
   }
 }
